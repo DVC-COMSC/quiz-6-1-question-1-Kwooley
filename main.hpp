@@ -37,7 +37,7 @@ int getNextPrime(int begin)
             return prime;
         prime += 1;
     }
-    return INT_MAX;
+    return 0;
 }
 
 int isPrime(int number)
